@@ -63,85 +63,85 @@
   opacity: 0.4;
 }
 
-.comment {
+.syntax--comment {
   color: #555555;
 }
 
-.entity {
+.syntax--entity {
   color: #F9D423;
 }
 
-.entity.name.type.class {
+.syntax--entity.syntax--name.syntax--type.syntax--class {
   color: #cccccc;
 }
 
-.keyword {
+.syntax--keyword {
   color: #7D8991;
 }
 
-.storage.type {
+.syntax--storage.syntax--type {
   color: #FC913A;
 }
 
-.storage.modifier {
+.syntax--storage.syntax--modifier {
   color: #7D8991;
 }
 
-.constant {
+.syntax--constant {
   color: #7D8991;
 
-  &.numeric,
-  &.boolean {
+  &.syntax--numeric,
+  &.syntax--boolean {
     color: #F9D423;
   }
 }
 
-.variable {
+.syntax--variable {
   color: #cccccc;
 }
 
-.delimiter, .brace {
+.syntax--delimiter, .syntax--brace {
   color: #cccccc;
 }
 
-.delimiter.period {
+.syntax--delimiter.syntax--period {
   color: #7D8991;
 }
 
-.invalid.deprecated {
+.syntax--invalid.syntax--deprecated {
   text-decoration: underline;
   color: @red;
 }
 
-.invalid.illegal {
+.syntax--invalid.syntax--illegal {
   color: @red;
 }
 
-.string {
+.syntax--string {
   color: #F9D423;
 
-  .constant.character.escape {
+  .syntax--constant.syntax--character.syntax--escape {
     color: @red;
   }
 
-  &.regexp {
+  &.syntax--regexp {
     color: #F9D423;
 
-    .source.ruby.embedded,
-    .string.regexp.arbitrary-repitition {
+    .syntax--source.syntax--ruby.syntax--embedded,
+    .syntax--string.syntax--regexp.syntax--arbitrary-repitition {
       color: @red;
     }
   }
 }
 
-.keyword.other.phpdoc {
+.syntax--keyword.syntax--other.syntax--phpdoc {
   color: #808080;
 }
 
-.entity.name.tag {
+.syntax--entity.syntax--name.syntax--tag {
   color: #FC913A;
 }
 
-.entity.other.attribute-name {
+.syntax--entity.syntax--other.syntax--attribute-name {
   color: #7D8991;
 }
